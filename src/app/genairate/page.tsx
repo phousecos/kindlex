@@ -56,8 +56,15 @@ export default function GenAIratePage() {
 
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 overflow-hidden">
-        {/* Background */}
-        <div className="absolute inset-0 bg-gradient-to-b from-navy-950 via-navy-900 to-navy-950" />
+        {/* Background Image with 60% Overlay */}
+        <div
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{
+            backgroundImage: `url('https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')`,
+          }}
+        >
+          <div className="absolute inset-0 bg-navy-950/60" />
+        </div>
 
         {/* Decorative Elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -88,19 +95,6 @@ export default function GenAIratePage() {
             Preparing underserved and justice-impacted youth for high-growth AI
             and tech careers.
           </p>
-        </div>
-      </section>
-
-      {/* Featured Image Section */}
-      <section className="relative">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 -mt-10 relative z-20">
-          <div className="rounded-2xl overflow-hidden shadow-2xl">
-            <img
-              src="https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
-              alt="Young people having a good time working with technology"
-              className="w-full h-64 md:h-96 object-cover"
-            />
-          </div>
         </div>
       </section>
 
