@@ -32,31 +32,31 @@ export default function Header() {
               About
             </Link>
             <Link
-              href="#mission"
+              href="/#mission"
               className="text-white/80 hover:text-gold-400 transition-colors font-medium"
             >
               Mission
             </Link>
             <Link
-              href="#programs"
+              href="/#programs"
               className="text-white/80 hover:text-gold-400 transition-colors font-medium"
             >
               Programs
             </Link>
             <Link
-              href="#impact"
+              href="/#impact"
               className="text-white/80 hover:text-gold-400 transition-colors font-medium"
             >
               Impact
             </Link>
             <Link
-              href="#get-involved"
+              href="/#get-involved"
               className="text-white/80 hover:text-gold-400 transition-colors font-medium"
             >
               Get Involved
             </Link>
             <Link
-              href="#get-involved"
+              href="/#get-involved"
               className="btn-primary !py-2 !px-6 !text-base"
             >
               Donate
@@ -85,35 +85,35 @@ export default function Header() {
                 About
               </Link>
               <Link
-                href="#mission"
+                href="/#mission"
                 className="text-white/80 hover:text-gold-400 transition-colors font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Mission
               </Link>
               <Link
-                href="#programs"
+                href="/#programs"
                 className="text-white/80 hover:text-gold-400 transition-colors font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Programs
               </Link>
               <Link
-                href="#impact"
+                href="/#impact"
                 className="text-white/80 hover:text-gold-400 transition-colors font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Impact
               </Link>
               <Link
-                href="#get-involved"
+                href="/#get-involved"
                 className="text-white/80 hover:text-gold-400 transition-colors font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Get Involved
               </Link>
               <Link
-                href="#get-involved"
+                href="/#get-involved"
                 className="btn-primary !py-2 !px-6 !text-base w-fit"
                 onClick={() => setIsMenuOpen(false)}
               >

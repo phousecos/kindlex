@@ -142,7 +142,7 @@ export default function AboutPage() {
                 Join us in creating pathways for the next generation of tech
                 leaders.
               </p>
-              <Link href="#get-involved" className="btn-primary group">
+              <Link href="/#get-involved" className="btn-primary group">
                 Join the Movement
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
