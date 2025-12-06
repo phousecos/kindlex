@@ -26,6 +26,12 @@ export default function Header() {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <Link
+              href="/about"
+              className="text-white/80 hover:text-gold-400 transition-colors font-medium"
+            >
+              About
+            </Link>
+            <Link
               href="#mission"
               className="text-white/80 hover:text-gold-400 transition-colors font-medium"
             >
@@ -71,6 +77,13 @@ export default function Header() {
         {isMenuOpen && (
           <nav className="md:hidden py-4 border-t border-white/10">
             <div className="flex flex-col space-y-4">
+              <Link
+                href="/about"
+                className="text-white/80 hover:text-gold-400 transition-colors font-medium"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                About
+              </Link>
               <Link
                 href="#mission"
                 className="text-white/80 hover:text-gold-400 transition-colors font-medium"
