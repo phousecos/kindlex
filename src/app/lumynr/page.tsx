@@ -60,7 +60,7 @@ export default function LumynrPage() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1664575602276-acd073f104c1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')`,
+            backgroundImage: `url('/images/women-tech.jpg')`,
           }}
         >
           <div className="absolute inset-0 bg-navy-950/60" />
