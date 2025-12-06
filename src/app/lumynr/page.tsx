@@ -60,7 +60,7 @@ export default function LumynrPage() {
         <div
           className="absolute inset-0 bg-cover bg-no-repeat"
           style={{
-            backgroundImage: `url('/images/women-tech.jpg')`,
+            backgroundImage: `url('/images/women-tech.png')`,
             backgroundPosition: 'center 25%',
           }}
         >
