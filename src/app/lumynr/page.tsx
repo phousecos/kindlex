@@ -91,6 +91,19 @@ export default function LumynrPage() {
         </div>
       </section>
 
+      {/* Featured Image Section */}
+      <section className="relative">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 -mt-10 relative z-20">
+          <div className="rounded-2xl overflow-hidden shadow-2xl">
+            <img
+              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
+              alt="Women focused on serious work with laptops and tablets"
+              className="w-full h-64 md:h-96 object-cover"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Main Content Section */}
       <section className="py-20 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -170,11 +183,11 @@ export default function LumynrPage() {
                 or reach out to learn more about the Lumynr program.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <Link href="#get-involved" className="btn-primary group">
+                <Link href="/#get-involved" className="btn-primary group">
                   Apply Now
                   <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
-                <Link href="#get-involved" className="btn-secondary">
+                <Link href="/#get-involved" className="btn-secondary">
                   Learn More
                 </Link>
               </div>
