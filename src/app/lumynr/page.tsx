@@ -58,9 +58,10 @@ export default function LumynrPage() {
       <section className="relative pt-32 pb-20 overflow-hidden">
         {/* Background Image with 60% Overlay */}
         <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          className="absolute inset-0 bg-cover bg-no-repeat"
           style={{
             backgroundImage: `url('/images/women-tech.jpg')`,
+            backgroundPosition: 'center 25%',
           }}
         >
           <div className="absolute inset-0 bg-navy-950/60" />
