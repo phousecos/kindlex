@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X } from "lucide-react";
 
 export default function Header() {
@@ -12,15 +13,15 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-to-br from-gold-400 to-warmOrange-500 rounded-lg flex items-center justify-center">
-              <span className="text-navy-950 font-display font-bold text-xl">
-                K
-              </span>
-            </div>
-            <span className="text-white font-display font-bold text-2xl">
-              Kindle<span className="text-gold-400">X</span>
-            </span>
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/images/KindleX-logo-160.png"
+              alt="KindleX"
+              width={160}
+              height={40}
+              className="h-10 w-auto"
+              priority
+            />
           </Link>
 
           {/* Desktop Navigation */}
