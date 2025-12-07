@@ -14,6 +14,11 @@ export const metadata: Metadata = {
     "Lumynr",
     "GenAIrate",
   ],
+  icons: {
+    icon: "/images/KindleX-favicon-48.png",
+    shortcut: "/images/KindleX-favicon-48.png",
+    apple: "/images/KindleX-favicon-48.png",
+  },
   openGraph: {
     title: "KindleX - Where Brilliance Takes Flight",
     description:
