@@ -50,13 +50,13 @@ export default function Header() {
               Impact
             </Link>
             <Link
-              href="/#get-involved"
+              href="/get-involved"
               className="text-white/80 hover:text-gold-400 transition-colors font-medium"
             >
               Get Involved
             </Link>
             <Link
-              href="/#get-involved"
+              href="/get-involved"
               className="btn-primary !py-2 !px-6 !text-base"
             >
               Donate
@@ -106,14 +106,14 @@ export default function Header() {
                 Impact
               </Link>
               <Link
-                href="/#get-involved"
+                href="/get-involved"
                 className="text-white/80 hover:text-gold-400 transition-colors font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Get Involved
               </Link>
               <Link
-                href="/#get-involved"
+                href="/get-involved"
                 className="btn-primary !py-2 !px-6 !text-base w-fit"
                 onClick={() => setIsMenuOpen(false)}
               >
