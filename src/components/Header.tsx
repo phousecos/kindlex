@@ -18,8 +18,8 @@ export default function Header() {
               src="/images/KindleX-logo-160.png"
               alt="KindleX"
               width={160}
-              height={40}
-              className="h-10 w-auto"
+              height={48}
+              className="h-12 w-auto"
               priority
             />
           </Link>
